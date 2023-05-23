@@ -68,6 +68,14 @@
             <groupId>tw.waterballsa.utopia</groupId>
             <artifactId>audio-experience</artifactId>
         </dependency>
+        <dependency>
+            <groupId>tw.waterballsa.utopia</groupId>
+            <artifactId>test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>tw.waterballsa.utopia</groupId>
+            <artifactId>Russian-Roulette</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

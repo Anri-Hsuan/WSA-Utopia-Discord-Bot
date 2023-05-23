@@ -35,6 +35,7 @@ class MuteAudiences() : UtopiaListener() {
 
     override fun onSlashCommandInteraction(event: SlashCommandInteractionEvent) {
         with(event) {
+            return
             val memberChannel = member?.voiceState?.channel
             log.info { "[Mute Command]: {\"commandInChannel\":\"$channel\", \"userInChannel\":\"$memberChannel\"}" }
             if (isNotMuteCommand() && isNotVoiceChannel()) {

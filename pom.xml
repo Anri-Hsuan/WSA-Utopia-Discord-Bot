@@ -26,6 +26,8 @@
         <module>actuator</module>
         <module>document</module>
         <module>audio-experience</module>
+        <module>test</module>
+        <module>Russian-Roulette</module>
     </modules>
 
     <properties>
@@ -218,6 +220,16 @@
             <dependency>
                 <groupId>tw.waterballsa.utopia</groupId>
                 <artifactId>audio-experience</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>tw.waterballsa.utopia</groupId>
+                <artifactId>test</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>tw.waterballsa.utopia</groupId>
+                <artifactId>Russian-Roulette</artifactId>
                 <version>${revision}</version>
             </dependency>
         </dependencies>
